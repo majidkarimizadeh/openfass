@@ -18,7 +18,7 @@ faas-cli list
 #### Describe the function
 ```shell
 #faas-cli describe <FUNCTION_NAME>
-faas-cli describe hello-hackathon
+faas-cli describe node-hello-world
 ```
 
 # Deploy openfass to a Kubernetes cluster
