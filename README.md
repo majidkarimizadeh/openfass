@@ -10,6 +10,17 @@ brew install faas-cli
 faas-cli template store list
 ```
 
+#### Browse existing functions
+```
+faas-cli list
+```
+
+#### Describe the function
+```shell
+#faas-cli describe <FUNCTION_NAME>
+faas-cli describe hello-hackathon
+```
+
 # Deploy openfass to a Kubernetes cluster
 #### Install arkade
 ```
