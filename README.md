@@ -71,6 +71,11 @@ faas-cli deploy -f node-hello-world.yml
 faas-cli up -f node-hello-world.yml
 ```
 
+#### Remove function 
+```shell
+# faas-cli rm -f <FUNCTION_NAME>.yml
+faas-cli rm -f node-hello-world.yml
+```
 
 https://www.openfaas.com/
 
