@@ -65,6 +65,11 @@ faas-cli push -f node-hello-world.yml
 faas-cli deploy -f node-hello-world.yml
 ```
 
+#### Alternative command for build, push and deploy
+```shell
+# faas-cli up -f <FUNCTION_NAME>.yml
+faas-cli up -f node-hello-world.yml
+```
 
 
 https://www.openfaas.com/
