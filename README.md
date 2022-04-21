@@ -64,3 +64,9 @@ faas-cli push -f node-hello-world.yml
 # faas-cli deploy -f <FUNCTION_NAME>.yml
 faas-cli deploy -f node-hello-world.yml
 ```
+
+
+
+https://www.openfaas.com/
+
+https://chaoscodes.github.io/2019/06/11/My-first-try-in-OpenFass/
