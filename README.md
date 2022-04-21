@@ -1,1 +1,1 @@
-# hackathon
+# Openfaas
