@@ -45,7 +45,7 @@ echo -n $PASSWORD | faas-cli login --username admin --password-stdin
 # faas-cli new <FUNCTION_NAME> --lang <TEMPLATE>
 faas-cli new node-hello-world --lang node12
 ```
-> Make sure in the `node-hello-world.yml` file you changed the `image` attribute and pointed it to the correct registry path, and set `imagePullPolicy` to `Never`.
+> Make sure in the `node-hello-world.yml` file you changed the `image` attribute and pointed it to the correct registry path.
 
 #### Build the function
 ```shell
