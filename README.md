@@ -51,7 +51,7 @@ echo -n $PASSWORD | faas-cli login --username admin --password-stdin
 
 ####  List openfass function pods
 ```shell
-kubectl get pods -n <NAMESPACE>
+# kubectl get pods -n <NAMESPACE>
 kubectl get pods -n openfaas-fn
 ```
 
