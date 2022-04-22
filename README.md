@@ -94,6 +94,16 @@ faas-cli up -f node-hello-world.yml
 faas-cli rm -f node-hello-world.yml
 ```
 
+#### List functions
+```shell
+faas-cli list
+```
+
+#### Describe the function
+```shell
+# faas-cli describe <FUNCTION_NAME>
+faas-cli describe node-hello-world
+```
 https://www.openfaas.com/
 
 https://chaoscodes.github.io/2019/06/11/My-first-try-in-OpenFass/
