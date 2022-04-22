@@ -43,10 +43,16 @@ kubectl rollout status -n openfaas deploy/gateway
 kubectl port-forward -n openfaas svc/gateway 8080:8080
 ```
 
-####  If basic auth is enabled, you can now log into your gateway:
+####  If basic auth is enabled, you can now log into your gateway
 ```
 PASSWORD=$(kubectl get secret -n openfaas basic-auth -o jsonpath="{.data.basic-auth-password}" | base64 --decode; echo)
 echo -n $PASSWORD | faas-cli login --username admin --password-stdin
+```
+
+####  List openfass function pods
+```shell
+kubectl get pods -n <NAMESPACE>
+kubectl get pods -n openfaas-fn
 ```
 
 # Create and deploy function
